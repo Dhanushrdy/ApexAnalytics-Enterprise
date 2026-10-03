@@ -281,37 +281,6 @@ docker build -t apex-analytics:latest .
 docker run -p 8501:8501 apex-analytics:latest
 ```
 
----
-
-## Pushing to GitHub Guide
-
-If you are pushing this project to GitHub for the first time:
-
-1. **Initialize Git repository:**
-   ```bash
-   git init
-   git branch -M main
-   ```
-
-2. **Stage and commit project files:**
-   ```bash
-   git add .
-   git commit -m "feat: initial commit of ApexAnalytics Enterprise platform"
-   ```
-
-3. **Link to your GitHub repository:**
-   *(Create a new empty repository on [GitHub](https://github.com/new) first, then run:)*
-   ```bash
-   git remote add origin https://github.com/<YOUR-USERNAME>/<YOUR-REPOSITORY-NAME>.git
-   ```
-
-4. **Push to GitHub:**
-   ```bash
-   git push -u origin main
-   ```
-
----
-
 ## Troubleshooting & FAQ
 
 <details>
